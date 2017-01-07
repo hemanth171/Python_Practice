@@ -17,6 +17,7 @@ cv = ShuffleSplit(X.shape[0], n_iter=10, test_size=0.2, random_state=0)
 train_sizes = np.rint(np.linspace(1, X.shape[0]*0.8 - 1, 9)).astype(int)
 print np.linspace(1, X.shape[0]*0.8 - 1, 9)
 print X.shape[0]*0.8-1
+print X.shape[0]*0.8
 
 mse_scores = -scores
 rmse_scores = np.sqrt(mse_scores)

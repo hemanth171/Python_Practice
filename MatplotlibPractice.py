@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 plt.figure(1)
-plt.subplot(331)
+plt.subplot(2,2,1)
 plt.plot([1,2,3,4])
 plt.ylabel("some numbers")
 plt.show()
